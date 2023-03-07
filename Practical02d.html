@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 02 d</title>
+    <style>
+        table{
+            width: 400px;
+            text-align: center;
+        }
+        th, tr, td{
+            padding: 10px;
+            height: 30px;
+            max-width: 200px;
+        }
+        table, th, tr, td{
+            border: 1px solid;
+        }
+        tr:nth-child(even){
+            background-color: #D6EEEE;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Setting Different Table Attributes</h1>
+    <hr>
+    <table>
+        <tr style="padding: 0;">
+            <td colspan="3" style="padding: 0;">
+                <img src="https://images.unsplash.com/photo-1671200034899-0bd929c25855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1177&q=80" alt="image" height="100px" width="390px">
+            </td>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Marks</th>
+        </tr>
+        <tr>
+          <td rowspan = "2">Hillary</td>
+          <td>Advanced Web</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td>Operating Syatem</td>
+          <td>60</td>
+        </tr>
+            <tr>
+          <td rowspan = "2">Lary</td>
+          <td>Advanced Web</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Operating Syatem</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td colspan="3" align="end">Total Average: 72.5</td>
+        </tr>
+      </table>
+</body>
+</html>
