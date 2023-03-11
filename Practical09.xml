@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="details.xsl"?>
+
+<bookstore>
+<book>
+  <name>Divyanshu Sah</name>
+  <age>19</age>
+  <phone>9456231231</phone>
+  <address>Bhimtal</address>
+</book>
+
+<book>
+  <name>Kartik Ginwal</name>
+  <age>20</age>
+  <phone>0072305991</phone>
+  <address>Mukteshwar</address>
+</book>
+
+<book>
+  <name>Paras Verma</name>
+  <age>20</age>
+  <phone>3704456084</phone>
+  <address>unknown</address>
+</book>
+
+<book>
+  <name>Riya Kafaltiya</name>
+  <age>20</age>
+  <phone>3781814512</phone>
+  <address>Gaulapar</address>
+</book>
+
+<book>
+  <name>Suraj Kumar</name>
+  <age>19</age>
+  <phone>1319125182</phone>
+  <address>Someshwar</address>
+</book>
+
+<book>
+  <name>Varun Negi</name>
+  <age>20</age>
+  <phone>9856321468</phone>
+  <address>Haldwani</address>
+</book>
+
+</bookstore>

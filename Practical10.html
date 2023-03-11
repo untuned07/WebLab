@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 10</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Leap Year Calculator</h1>
+    <hr>
+    <div align="center">
+        <b>Enter year:</b>
+        <br>
+        <input type="number" name="year" id="year"><br><br>
+        <input type="submit" value="Check Leap" onclick="calculate()" /><br>
+        <span id="result"></span>
+    </div>
+    <br>
+    <script>
+        function calculate() {
+            const year = document.getElementById("year").value;
+            flag = false;
+            if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+                document.getElementById("result").innerHTML="<b>Leap year</b>";
+            } else {
+                document.getElementById("result").innerHTML="<b>Not a Leap Year</b>";
+            }
+        }
+    </script>
+</body>
+
+</html>

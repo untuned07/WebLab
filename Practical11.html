@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 11</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temperature convertor</h1>
+    <hr>
+    <div align="center">
+        <input type="number" name="value" id="value">
+        <br> <br>
+        <input type="submit" value="Celsius to Fahrenheit" onclick="ctof()" /><br>
+        <input type="submit" value="Fahrenheit to Celsius" onclick="ftoc()" /><br>
+        <br>
+        <b id="result"></b>
+    </div>
+
+    <script>
+        function ctof(){
+            const val = document.getElementById("value").value;
+            ans = (val * 1.8) + 32;
+            document.getElementById("result").innerHTML = ans+ " F";
+        }
+
+        function ftoc(){
+            const val = document.getElementById("value").value;
+            ans = ((val -32) * 5)/9;
+            document.getElementById("result").innerHTML = ans+ " C";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?>
+
+<bookstore>
+<book>
+  <title>Atomic Habits</title>
+  <author>James Clear</author>
+  <isbn>0735211299</isbn>
+  <publisher>Avery</publisher>
+  <edition>1</edition>
+  <price>320</price>
+</book>
+
+<book>
+  <title>Business COmmunications</title>
+  <author>Kitty O. Locker</author>
+  <isbn>0072305991</isbn>
+  <publisher>Library of Congress</publisher>
+  <edition>3</edition>
+  <price>750</price>
+</book>
+
+<book>
+  <title>Short Fiction</title>
+  <author>Ray Bradbury</author>
+  <isbn>37044560</isbn>
+  <publisher>Standard Ebooks</publisher>
+  <edition>1</edition>
+  <price>450</price>
+</book>
+
+<book>
+  <title>Pillar of Fire</title>
+  <author>Ray Bradbury</author>
+  <isbn>37818145</isbn>
+  <publisher>LibriVox</publisher>
+  <edition>2</edition>
+  <price>250</price>
+</book>
+
+<book>
+  <title>The Story and ITs Writer</title>
+  <author>Ann Charters</author>
+  <isbn>1319125182</isbn>
+  <publisher>Bedford</publisher>
+  <edition>9</edition>
+  <price>1150</price>
+</book>
+
+</bookstore>
